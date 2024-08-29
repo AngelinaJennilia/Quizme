@@ -1,0 +1,129 @@
+body{
+    background-color: rgb(25, 91, 153);
+}
+header{
+    font-size:35px ;
+    text-align: center;
+    margin-top: 5%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(221, 175, 137);
+    text-shadow: 1px 1px 1px black;
+}
+#quizsection{
+    justify-content: center;
+    background-color: rgb(18, 45, 68);
+    padding-bottom: 30px;
+    padding-top: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    color: rgb(247, 243, 243);
+    border: 5px;
+    border-radius: 20px;
+    box-shadow: 1px 2px 3px;
+    text-align: center;
+    margin: 20px;
+    margin-top: 49%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#name{
+    margin-left: 0%;
+    margin-top: 0%;
+    background-color: rgb(248, 241, 233);
+}
+#start{
+    background-color: rgb(13, 24, 39);
+    color: aliceblue;
+    border: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+#start a{
+    text-decoration: none;
+    color: rgb(245, 245, 233);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#start:hover{
+    background-color: black;
+}
+#start::after{
+    background-color: aquamarine;
+}
+#data{
+    text-align:left;
+    margin-left: 60px;
+    margin-bottom: 30px;
+}
+.container {
+    color: rgb(20, 20, 14);
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(248, 248, 235);
+    padding: 10px;
+    border: 10px;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-bottom: 16px;
+}
+label{
+    color: rgb(11, 21, 29);
+    margin-right:40%;
+    border:1px;
+    padding-right: 20%;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+label:active{
+    background-color: rgb(252, 252, 255);
+}
+input{
+    margin-top: 18px;
+    margin-left: 20px;
+    background-color: rgb(6, 65, 92);
+}
+.submit{
+    margin-top: 15px;
+    margin-left: 20px;
+    background-color: rgb(9, 22, 46);
+    color: aliceblue;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 30px;
+}
+.clicked{
+    background-color: rgb(123, 184, 224);
+    color: black;
+}
+#end{
+    margin-top: 15px;
+    margin-left: 13%;
+    align-items: center;
+    background-color: rgb(9, 22, 46);
+    color: aliceblue;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+}
+#result{
+    background-color: antiquewhite;
+    padding: 5px;
+    border: 10px;
+    border-radius: 10px;
+    margin-left: 30%;
+    margin-right: 25%;
+    text-align: center;
+    align-items: center;
+}
